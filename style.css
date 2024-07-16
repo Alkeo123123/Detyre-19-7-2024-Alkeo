@@ -1,0 +1,292 @@
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    transition: background-color 0.5s ease;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+#mode-toggle {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#mode-toggle:hover {
+    background-color: #444;
+}
+
+h1 {
+    color: #afafaf;
+    font-size: x-small;
+    transition: color 2s ease;
+}
+
+.dark-mode h1 {
+    color: #fff;
+}
+
+h2 {
+    color: white;
+    font-size: medium;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justifyContent {
+    justify-content: space-around;
+}
+
+.justifyContent1 {
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #dda200;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1ch;
+    font-size: 15x;
+}
+
+.button1 {
+    background-color: #2b5d87;
+    border: #051b2c;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 1ch;
+}
+
+.button2 {
+    background-color: #2b5d87;
+    border: #051b2c;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0.5ch;
+}
+
+button:hover {
+    background-color: #255074
+}
+
+.button:active {
+    background-color: #255074;
+    transform: translateY(4px);
+}
+
+.button1:active {
+    background-color: #255074;
+    transform: translateY(4px);
+}
+
+.button2:active {
+    background-color: #255074;
+    transform: translateY(4px);
+}
+
+.Font1 {
+    color: #afafaf;
+    font-size: medium;
+    transition: color 1s ease;
+}
+
+body.dark-mode .Font1 {
+    color: #fff;
+}
+
+.Font2 {
+    color: #3d72a0;
+    font-size: medium;
+}
+
+.Font3 {
+    color: green;
+}
+
+.Font4 {
+    color: #afafaf;
+    font-size: large;
+    transition: color 2s ease;
+}
+
+body.dark-mode .Font4 {
+    color: #fff;
+}
+
+.Font5 {
+    color: #255074;
+    font-size: medium;
+}
+
+.Font6 {
+    color: #3c4044;
+    font-size: medium;
+    transition: color 2s ease;
+}
+
+body.dark-mode .Font6 {
+    color: #fff;
+}
+
+.Font7 {
+    color: #585050;
+    transition: color 2s ease;
+}
+
+body.dark-mode .Font7 {
+    color: #ffffff
+}
+
+.Font8 {
+    color: #ffffff;
+    font-size: large;
+}
+
+.highlighted {
+    background-color: #3e6793;
+}
+
+.highlighted1 {
+    background-color: #dbdde0;
+    transition: color 2s ease;
+}
+
+body.dark-mode .highlighted1 {
+    background-color: #1d2025;
+}
+
+
+
+#yellow {
+    color: #ffff00;
+}
+
+#blue {
+    color: #255074
+}
+
+#white {
+    color: #ffffff;
+}
+
+#gray {
+    color: #808080
+}
+
+.box {
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(to right,
+            #1e2933 0%,
+            #1e2933 48%,
+            #1d3b56 48%,
+            #1d3b56 100%);
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    margin-left: 100px auto;
+    margin-right: 100px auto;
+}
+
+.box1 {
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(to bottom,
+            #1e2933 0%,
+            #1d3b56 100%);
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    margin-left: 100px auto;
+    margin-right: 100px auto;
+}
+
+.box2 {
+    height: auto;
+    width: auto;
+    background-color: #ffe48e;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    margin-left: 100px auto;
+    margin-right: 100px auto;
+    transition: background-color 2s ease;
+}
+
+body.dark-mode .box2 {
+    background-color: #af9d5f;
+}
+
+.box3 {
+    height: 20px;
+    width: 100%;
+    background-color: #202932;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    z-index: 100;
+}
+
+.box4 {
+    height: 500px;
+    width: 100%;
+    background-color: #345479;
+    transition: background-color 2s ease;
+}
+
+body.dark-mode .box4 {
+    background-color: #203246;
+}
+
+.Background1 {
+    background-color: #1e2933;
+    background-size: auto;
+    box-shadow: 3px 3px;
+}
+
+.pRow1 {
+    margin-top: 180px;
+    ;
+}
+
+.pRow2 {
+    margin-top: 20px;
+    ;
+}
+
+.Line {
+    font-size: x-large;
+    color: #255074;
+}
+
+body.light-mode {
+    background-image: none;
+    background-color: #f2f2f2;
+    color: #333;
+    transition: background-color 2s ease;
+}
+
+body.dark-mode {
+    background-image: none;
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+  }
